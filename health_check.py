@@ -106,7 +106,7 @@ def generate_html_dashboard(results):
             {cards_html}
         </div>
         <div class="footer">
-            Última verificação automatizada em: <strong>{now_utc}</strong><br>
+            Última verificação automatizada em: <strong>{now_brt}</strong><br>
             Powered by GitHub Actions & Python
         </div>
     </div>

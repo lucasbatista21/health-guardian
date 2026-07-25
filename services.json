@@ -1,0 +1,14 @@
+[
+  {
+    "name": "GitHub Status",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Google",
+    "url": "https://www.google.com"
+  },
+  {
+    "name": "Teste de Erro (URL Inexistente)",
+    "url": "https://httpbin.org/status/500"
+  }
+]

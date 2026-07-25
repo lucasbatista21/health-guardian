@@ -1,14 +1,26 @@
 [
   {
-    "name": "GitHub Status",
-    "url": "https://github.com"
-  },
-  {
-    "name": "Google",
+    "name": "Google (Busca)",
     "url": "https://www.google.com"
   },
   {
-    "name": "Teste de Erro (URL Inexistente)",
+    "name": "GitHub (Status)",
+    "url": "https://github.com"
+  },
+  {
+    "name": "JSONPlaceholder (API Pública)",
+    "url": "https://jsonplaceholder.typicode.com/posts/1"
+  },
+  {
+    "name": "HTTPBin (Teste Status 200)",
+    "url": "https://httpbin.org/status/200"
+  },
+  {
+    "name": "HTTPBin (Teste Erro 500)",
     "url": "https://httpbin.org/status/500"
+  },
+  {
+    "name": "HTTPBin (Teste Erro 404)",
+    "url": "https://httpbin.org/status/404"
   }
 ]

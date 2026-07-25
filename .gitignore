@@ -1,0 +1,11 @@
+# Ambientes virtuais do Python
+venv/
+.venv/
+env/
+
+# Arquivos de cache e bytecode do Python
+__pycache__/
+*.pyc
+
+# Arquivos de variáveis de ambiente locais (onde guardaremos tokens no futuro)
+.env

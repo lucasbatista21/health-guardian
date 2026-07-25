@@ -4,7 +4,7 @@ import time
 import urllib.request
 import urllib.error
 import urllib.parse
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 LATENCY_THRESHOLD_SECONDS = 1.5
 
@@ -66,7 +66,8 @@ def check_service(service):
 
 def generate_html_dashboard(results):
     """Gera uma pagina de status HTML estatica com os resultados."""
-    now_utc = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+    brt_timezone = timezone(timedelta(hours=-3))
+    now_brt = datetime.now(brt_timezone).strftime("%d/%m/%Y às %H:%M:%S (Horário de Brasília)")
     
     cards_html = ""
     for r in results:
